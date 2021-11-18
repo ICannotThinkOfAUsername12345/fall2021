@@ -9,10 +9,11 @@ Download and Install Unity 2020 LTS (e.g. `2020.3.21f1`), preferably through Uni
 Then, download the project, either through the [GUI](https://docs.unity3d.com/2020.3/Documentation/Manual/upm-ui-giturl.html), or through the [command line](https://docs.unity3d.com/2020.3/Documentation/Manual/CommandLineArguments.html), like so
 
 ```powershell
-git clone 'https://github.com/gamedevunite-at-smc/fall2021'
+git lfs clone 'https://github.com/gamedevunite-at-smc/fall2021'
 Set-Location fall2021
 & "C:\Program Files\Unity\path\to\executable\Unity.exe" -projectPath .
 ```
+
 
 ## Automated Bulding
 
